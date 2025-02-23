@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <title>Weather</title>
+    <!-- google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link href="CSS/all.min.css" rel="stylesheet" type="text/css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a href="index.html" class="branding">
+                    <img src="images/logo.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+                <div class="mobile-navigation"></div>
+            </div>
+        </div> <!-- .site-header -->
+        <div class="hero" data-bg-image="images/banner.png">
+            <div class="container">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="search">
+                    <input type="button" value="Find" id="submit">
+                </form>
+            </div>
+        </div>
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container" id="forecast">
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer> <!-- .site-footer -->
+    </div>
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/jquery-1.11.1.min.js"></script>
+    <script src="JS/plugins.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
